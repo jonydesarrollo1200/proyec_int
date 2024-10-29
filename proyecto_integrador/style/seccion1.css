@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #7ebefe;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+}
+
+.contenedor {
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+    background: #baddfc;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 50px; /* Ajusta este valor para cambiar el tamaño del logo */
+    height: auto;
+    margin-top: 20px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+}
+
+.iconos img {
+    width: 30px; /* Tamaño de los iconos */
+    height: auto;
+    margin: 0 10px;
+}
